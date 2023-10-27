@@ -1,20 +1,70 @@
-// TrabalhoOne.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
-//
-
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+
+	//Ex1
+	/*int num;
+
+	cout << "Insira um numero: " << endl;
+	cin >> num;
+
+	cout << "O dobro de: " << num << " sera " << num * 2 << endl; */
+
+	//Ex2
+	/*int num1;
+	int num2;
+
+	cout << "Insira o primeiro numero: " << endl;
+	cin >> num1;
+	cout << "Insira o segundo numero: " << endl;
+	cin >> num2;
+
+	if (num1 > num2) {
+		cout << "O primeiro valor eh maior " << endl;
+	}
+	else if (num2 > num1) {
+		cout << "O segundo valor eh maior";
+	}
+	else {
+		cout << "Operacao invalida";
+	}*/
+
+	//Ex3
+	/*int vetorDez[10];
+
+	cout << "Insira 10 numeros inteiros para saber o maior e o menor:" << endl;
+
+	for (int i = 0; i < 10; i++) {
+		cout << "Insira o numero de posicao " << i + 1 << " : " << endl;
+		cin >> vetorDez[i];
+	}
+
+	int maior = vetorDez[0];
+	int menor = vetorDez[0];
+
+	for (int c = 1; c < 10; c++) {
+		if (vetorDez[c] > maior) {
+			maior = vetorDez[c];
+		}
+		if (vetorDez[c] < menor) {
+			menor = vetorDez[c];
+		}
+	}
+
+	cout << "Maior numero digitado: " << maior << endl;
+	cout << "Menor numero digitado: " << menor << endl;*/
+
+	
+
+
+
+
+
+
+
+
+
+
 }
-
-// Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
-// Depurar programa: F5 ou menu Depurar > Iniciar Depuração
-
-// Dicas para Começar: 
-//   1. Use a janela do Gerenciador de Soluções para adicionar/gerenciar arquivos
-//   2. Use a janela do Team Explorer para conectar-se ao controle do código-fonte
-//   3. Use a janela de Saída para ver mensagens de saída do build e outras mensagens
-//   4. Use a janela Lista de Erros para exibir erros
-//   5. Ir Para o Projeto > Adicionar Novo Item para criar novos arquivos de código, ou Projeto > Adicionar Item Existente para adicionar arquivos de código existentes ao projeto
-//   6. No futuro, para abrir este projeto novamente, vá para Arquivo > Abrir > Projeto e selecione o arquivo. sln
+	
